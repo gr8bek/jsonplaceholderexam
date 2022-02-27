@@ -1,13 +1,13 @@
 const token = window.localStorage.getItem("token");
 
 if (!token) {
-  window.location.replace("login.html");
+  window.location.replace("index.html");
 }
 
 const elUserList = document.querySelector(".users__list");
 const elTemplate = document.querySelector(".template").content;
 const elLogOutBtn = document.querySelector(".logout-btn");
-const post_btn = document.querySelector('.post_btn');
+const post_btn = document.querySelector(".post_btn");
 
 const renderUsers = (array, node) => {
   node.innerHTML = null;

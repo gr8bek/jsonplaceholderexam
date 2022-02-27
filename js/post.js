@@ -1,7 +1,7 @@
 const token = window.localStorage.getItem("token");
 
 if (!token) {
-  window.location.replace("login.html");
+  window.location.replace("index.html");
 }
 
 const elPostsList = document.querySelector(".posts__list");
