@@ -68,6 +68,6 @@ elLogOutBtn.addEventListener("click", (evt) => {
 
   if (evt.target.matches(".logout-btn")) {
     localStorage.removeItem(".token");
-    window.location.replace("login.html");
+    window.location.replace("index.html");
   }
 });
